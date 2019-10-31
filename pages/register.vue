@@ -5,7 +5,7 @@
 
 				<form action="#" class="form-signin" @submit.prevent="login">
 					<img class="mb-4" src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-					<h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+					<h1 class="h3 mb-3 font-weight-normal">Register</h1>
 
 					<label for="email" class="sr-only">Email address</label>
 					<input type="email" id="email" name="email" class="form-control" placeholder="Email address" v-model="email" required autofocus>
@@ -14,8 +14,8 @@
 					<input type="password" id="password" name="password" class="form-control" placeholder="Password" v-model="password" required>
 
 					<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-					<p class="mt-5 text-muted">&copy; 2017-2019</p>
-					<nuxt-link to="/register" class="mt-5 mb-3 text-muted">Register</nuxt-link>
+					<p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
+                    <nuxt-link to="/" class="mb-3 text-muted">Login</nuxt-link>
 				</form>
 
 			</div>

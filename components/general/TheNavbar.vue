@@ -15,10 +15,10 @@
 						<nuxt-link to="/about" class="nav-link">About</nuxt-link>
 					</li>
 					<li class="nav-item" v-if="!loggedIn">
-						<nuxt-link to="/login" class="nav-link">Login</nuxt-link>
+						<nuxt-link to="/register" class="nav-link">Register</nuxt-link>
 					</li>
 					<li class="nav-item" v-if="!loggedIn">
-						<nuxt-link to="/register" class="nav-link">Register</nuxt-link>
+						<nuxt-link to="/" class="nav-link">Login</nuxt-link>
 					</li>
 					<li class="nav-item" v-if="loggedIn">
 						<nuxt-link to="/logout" class="nav-link">Logout</nuxt-link>
