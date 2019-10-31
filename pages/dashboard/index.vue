@@ -16,6 +16,7 @@
 	import TheNabar from '~/components/general/TheNavbar'
 
 	export default {
+		name: 'dashboard',
 		components: {
 			TheNabar
 		}
