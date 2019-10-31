@@ -1,0 +1,23 @@
+{
+  "name": "login-vue",
+  "version": "1.0.0",
+  "description": "Simple Login System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ollorente/login-vue.git"
+  },
+  "keywords": [
+    "login",
+    "system"
+  ],
+  "author": "Oscar Llorente | llorente_oscar@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ollorente/login-vue/issues"
+  },
+  "homepage": "https://github.com/ollorente/login-vue#readme"
+}
